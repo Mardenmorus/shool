@@ -1,3 +1,6 @@
 .idea/
 front/node_modules
 front/package-lock.json
+
+/backand/node_modules/
+/backand/package-lock.json
