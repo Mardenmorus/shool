@@ -23,6 +23,8 @@ export const NewsPage = () => {
             <div className="menu">
                 <Link to="/">Home</Link>
                 <Link to="/news">News</Link>
+                <Link to="/blog">Blog</Link>
+
                 
             </div>
             <input value={stringTest} onChange={(value) => setStringTest(value.target.value)}></input>

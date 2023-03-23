@@ -7,6 +7,7 @@ import {
 
 import { HomePage } from './pages/home';
 import { NewsPage } from './pages/news';
+import { BlogPage } from './pages/blog';
 import './style/main.css';
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     {
         path: "news",
         element: <NewsPage/>
+    },
+    {
+        path: "blog",
+        element: <BlogPage/>
     }
 ])
 
